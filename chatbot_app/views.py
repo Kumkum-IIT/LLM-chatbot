@@ -87,7 +87,7 @@ def chatbot_api(request):
 # response = requests.post(
 #                 url="https://openrouter.ai/api/v1/chat/completions",
 #                 headers={
-#                     "Authorization": "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",
+#                     "Authorization": "OPENAI_API_KEY",
 #                 },
 #                 json={
 #                     "model": "mistralai/mistral-7b-instruct:free",
