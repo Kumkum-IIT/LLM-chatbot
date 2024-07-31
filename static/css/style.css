@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+
+.chat-container {
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+}
+
+#hold_to_talk {
+    position: relative;
+    padding: -17px;
+    height: 26px;
+    transform: translateY(-50%);
+    top: 6%;
+    left: 199px;
+    background-color: #226342;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 6px 5px;
+    width: 103px;
+    text-align: center;
+}
+
+#selectedLanguage{
+  display: inline-block;
+}
